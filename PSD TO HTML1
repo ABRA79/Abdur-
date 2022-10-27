@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+  color: #fff;
+}
+body {
+  background: #282828;
+}
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+}
+.pain {
+  width: 640px;
+  height: 360px;
+  margin: auto;
+  background-image: url(./messi123.png);
+  background-position: 100% 100%;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+.txt {
+  width: 432px;
+  height: 100%;
+  clip-path: polygon(0% 0%, 100% 0%, 80% 100%, 0% 100%);
+  background: #00f;
+  padding: 30px 85px;
+}
+.txt h2 {
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+.txt p {
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+.txt button {
+  width: 120px;
+  height: 32px;
+  font-size: 15px;
+  margin-bottom: 30px;
+  background-color: #ec2c55;
+  border-radius: 15%/50%;
+  border-width: 0;
+}
